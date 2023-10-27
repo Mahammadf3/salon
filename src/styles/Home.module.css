@@ -1,0 +1,82 @@
+.Home {
+    height: 91vh;
+    width: 98.9vw;
+    /* background-image: url('https://thumbs.dreamstime.com/b/cute-woman-pink-roses-flowers-green-leaves-wreath-blonde-curly-hair-healthy-skin-skincare-haircare-concept-104040890.jpg?w=768'); */
+  
+    margin-top: -5vh;
+}
+.dummy{
+    height:5vh;
+    width: 100%; 
+}
+
+.infoDiv{
+    height:86vh;
+    width: 100%;
+    background-image: url('../images//portrait-young-woman-with-beautiful-spring-flowers-white.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    
+}
+
+.Information{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.name{
+    font-size: 2.5rem;
+    /* font-family: cursive; */
+    font-weight: bold;
+    margin-left: -60vw;
+    font-style: oblique;
+}
+.qoute{
+    font-weight: bold;
+    margin-left: -60vw;
+
+}
+
+
+
+/* ===================================mobile-view============= */
+
+/* Mobile view styles for Home component */
+@media (max-width: 600px) {
+    .Home {
+      /* height: auto; */
+      padding: 20px;
+      text-align: center;
+      height:100vh;
+
+    }
+  
+    .dummy {
+      height: 2vh;
+    }
+  
+    .infoDiv {
+      height: auto;
+      padding: 20px;
+      height: 82%;
+    }
+  
+    .name {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-left: 0;
+    }
+  
+    .qoute {
+      font-weight: bold;
+      margin-left: 0;
+    }
+  }
+  
+
+

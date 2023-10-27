@@ -1,0 +1,209 @@
+
+
+.navBar{
+    height:6vh;
+    width: 100%;
+    background-color: rgb(218, 28, 107);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: ; */
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: white;
+}
+.navPhone{
+    margin-right: 3vw;
+}
+.sNavBar{
+    height:8vh;
+    width: 100%;
+    background-color: white;
+top: -20hv;
+display: flex;
+
+}
+.navEmail{
+    margin-right: 5px;
+
+}
+
+
+
+.offerings{
+    height:100%;
+    width: 40%;
+    margin-left: 50vw;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: rgb(245, 8, 138);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.offerings div{
+    cursor: pointer;
+}
+.home{
+    text-decoration: none;
+    color:rgb(218, 28, 107);
+}
+
+.services{
+   
+    display: flex;
+    flex-direction: column;
+    /* position: fixed; */
+}
+
+.navUl{
+    height: 5vh;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 15vh;
+    list-style-type: none;
+
+
+}
+.navUl li{
+    cursor: pointer;
+
+}
+.Links{
+    text-decoration: none;
+    color: rgb(245, 8, 138);
+    cursor: pointer;
+
+}
+.Links:hover{
+    color: rgb(14, 225, 14);
+}
+
+
+.logo{
+    height:18vh;
+    width: 10vw;
+    background-color: green;
+    /* margin-top: -12vh; */
+    position: relative;
+    top:-6vh;
+    margin-left: 5vw;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-image: url('../images/WhatsApp\ Image\ 2023-10-25\ at\ 10.01.10\ PM.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 50%; */
+    border-radius: 50%;
+}
+.Homee{
+    text-decoration: none;
+    color: rgb(245, 8, 138);
+}
+
+/* Wrapper.module.css */
+
+.sNavBar {
+    height: 8vh;
+    width: 100%;
+    background-color: white;
+    top: -20vh;
+    display: flex;
+    z-index: 1; /* Ensure that this value is appropriate for your layout */
+  }
+  
+  .offerings {
+    height: 100%;
+    width: 40%;
+    margin-left: 50vw;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: rgb(245, 8, 138);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 2; /* Ensure that this value is appropriate for your layout */
+  }
+  
+  .services {
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Make sure there's no z-index set that might obstruct links */
+  }
+  
+  .navUl {
+    height: 5vh;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 15vh;
+    list-style-type: none;
+    z-index: 3; /* Ensure that this value is appropriate for your layout */
+  }
+  
+
+/* ======================================mobile-view=========================================== */
+
+@media (max-width: 600px) {
+    .navBar {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .navPhone {
+      margin-right: 0;
+      margin-bottom: 1vh;
+    }
+  
+    .sNavBar {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      top: 0hv;
+
+    }
+  
+    .infoDiv {
+      margin-top: 2vh;
+    }
+  
+    .offerings {
+        height: 20%;
+      width: 100%;
+      font-size: 1.2rem;
+      margin-left: 10vw;
+      display: flex;
+      justify-content: space-around;
+
+    }
+  
+    .services {
+      text-align: center;
+      margin-top: 2vh;
+    }
+  
+    .navUl {
+      margin-top: 2vh;
+      list-style-type: disc;
+      margin-top: vh;
+
+    }
+    .logo{
+        height: 0px;
+        visibility: hidden;
+    }
+    .navEmail{
+        margin-top: 5vh;
+    }
+    .navPhone{
+        margin-bottom: 5vh;
+    }
+    .dummySpan{
+        visibility: hidden;
+    }
+  }

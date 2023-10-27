@@ -1,0 +1,171 @@
+
+ 
+
+
+
+.HairCut{
+  height: 86vh;
+  width: 98.9vw;
+  background-image: url('../images/WhatsApp\ Image\ 2023-10-25\ at\ 10.04.15\ PM.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  /* flex-direction: ; */
+  justify-content: space-around;
+  align-items: center;
+}
+.imgs{
+  width: 25%;
+  height: 50%;
+}
+.imgd{
+  background-image: url('../images/portrait-beautiful-woman-with-make-up-brushes-near-attractive-face-adult-girll-posing-white-space.jpg');
+  height:100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.name{
+  width: 25%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottomName{
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+  color: white;
+}
+.topName{
+  font-size: 3rem;
+  font-size: bold;
+  font-family: cursive;
+  color: rgb(225, 90, 13);
+}
+.bookNowDiv{
+  width: 15%;
+  height: 50%; 
+}
+
+
+/* ======================================================= */
+.bookNowDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.textArea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+}
+
+.selectField {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #e55a0d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.submitButton:hover {
+  background-color: #d14a0c;
+}
+
+
+.hoverDiv{
+  font-size:2rem;
+  border: 3px solid rgb(245, 8, 138);
+  color: white;
+  background-color: rgb(245, 8, 138);
+  border-radius: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: cent;
+}
+
+
+
+  /* =========================== */
+  
+    /* ==========================================mobile-view==================================== */
+    @media (max-width: 600px) {
+      .HairCut {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        height:100vh;
+        width: 98.9vw;
+      }
+    
+      .imgs {
+        width: 80%;
+        height: auto;
+      }
+    
+      .imgd {
+        width: 100%;
+      }
+    
+      .name {
+        width: 80%;
+      }
+    
+      .topName {
+        font-size: 2rem;
+      }
+    
+      .bottomName {
+        font-size: 1.2rem;
+      }
+    
+      .bookNowDiv {
+        width: 100%;
+      }
+      .form{
+        overflow: scroll;
+      }
+    }
